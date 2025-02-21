@@ -1,10 +1,6 @@
-![CrowdStrike Falcon](https://raw.githubusercontent.com/CrowdStrike/falconpy/main/docs/asset/cs-logo.png)
-[![CrowdStrike Subreddit](https://img.shields.io/badge/-r%2Fcrowdstrike-white?logo=reddit&labelColor=gray&link=https%3A%2F%2Freddit.com%2Fr%2Fcrowdstrike)](https://reddit.com/r/crowdstrike)
+# ProxyTool
 
-# ProxyTool v3.6
-This example focuses on leveraging CrowdStrike's Hosts, Host Groups, Sensor Download, and Real-Time Response API.
-
-It is a script that fetches CID or Host Group hosts, and uses the batch command and offline queuing of Real-Time Response API to centrally 
+This is a script that fetches CID or Host Group hosts, and uses the batch command and offline queuing of Real-Time Response API to centrally 
 and conveniently issue Falcon sensor proxy configuration changes.
 
 - It uses native RTR commands, which will not trigger a detection/prevention in relation to sensor anti-tampering. 
